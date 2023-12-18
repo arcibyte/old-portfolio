@@ -13,17 +13,17 @@ const Experience = () => {
 
   return (
     <div name='experience' className="px-4 sm:px-8 md:px-16 lg:px-32 py-2 mb-6 font-poppins text-sm">
-      <h2 className="text-lg font-montserrat">Experiencia</h2>
+      <h2 className="text-lg font-montserrat font-bold text-[#f4f6ff]">Experiencia</h2>
       
       {experiences.map((experience, index) => (
         <div key={index} className="flex flex-col sm:flex-row mt-4">
-          <div className="text-[#AAB7B8] flex-shrink-0 sm:w-24 md:w-28 lg:w-32 mb-2 sm:mb-0">
+          <div className="text-[#f4f6ff]] flex-shrink-0 sm:w-24 md:w-28 lg:w-32 mb-2 sm:mb-0">
             {experience.year}
           </div>
           <div>
-            <h6 className="text-[#ffffff] mb-2">{experience.title}</h6>
-            <p className="text-[#AAB7B8]">{experience.description}</p>
-            <p className="text-xs mt-2">{experience.technologies}</p>
+            <h6 className="text-[#f4f6ff]] mb-2">{experience.title}</h6>
+            <p className="text-[#bdc8f1]">{experience.description}</p>
+            <p className="text-xs mt-2 text-[##f4f6ff]]">{experience.technologies}</p>
           </div>
         </div>
       ))}

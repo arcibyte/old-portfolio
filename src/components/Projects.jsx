@@ -38,7 +38,7 @@ const ProjectCard = ({
       </div>
       <div className="mt-2 text-center font-poppins">
         <h2 className="text-sm">{title}</h2>
-        <p  className="text-sm text-[#AAB7B8]">{description}</p>
+        <p  className="text-sm text-[#bdc8f1]">{description}</p>
 
         <div className="mt-2">
           <p className="text-xs" >{technologies}</p>
@@ -54,7 +54,7 @@ const Projects = () => {
       name="projects"
       className="px-4 sm:px-8 md:px-16 lg:px-32 mt-2 max-w-screen-lg mx-auto mb-2"
     >
-      <h2 className="text-lg mb-4 font-montserrat">Proyectos</h2>
+      <h2 className="text-lg mb-4 font-montserrat font-bold text-[#f4f6ff]">Proyectos</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <ProjectCard
           title="Proyecto 1"
@@ -68,20 +68,6 @@ const Projects = () => {
           description="Descripción del Proyecto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           repoLink="enlace-a-repositorio-proyecto2"
           projectLink="enlace-a-proyecto2"
-          technologies="React, Tailwind, Vercel"
-        />
-        <ProjectCard
-          title="Proyecto 3"
-          description="Descripción del Proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          repoLink="enlace-a-repositorio-proyecto3"
-          projectLink="enlace-a-proyecto3"
-          technologies="React, Tailwind, Vercel"
-        />
-        <ProjectCard
-          title="Proyecto 4"
-          description="Descripción del Proyecto 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          repoLink="enlace-a-repositorio-proyecto4"
-          projectLink="enlace-a-proyecto4"
           technologies="React, Tailwind, Vercel"
         />
         <ProjectCard

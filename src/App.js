@@ -3,6 +3,7 @@ import React from "react";
 import "tailwindcss/tailwind.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Stack from "./components/Stack";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -14,6 +15,7 @@ const App = () => {
     <div>
       <Navbar />
       <Home />
+      <Stack/>
       <About/>
       <Experience />
       <Projects />
