@@ -12,7 +12,7 @@ const ProjectCard = ({
   return (
     <div className="mx-auto mb-2 p-2 overflow-hidden">
       <div className="flex flex-col sm:flex-row">
-        <div className="h-40 lg:w-3/6 rounded overflow-hidden mb-4 lg:mb-0 flex items-center justify-center">
+        <div className="h-40  sm:w-3/6 rounded overflow-hidden mb-4 lg:mb-0 flex items-center justify-center">
           <img
             src={imageUrl}
             alt={title}
@@ -27,7 +27,7 @@ const ProjectCard = ({
               <p className="text-xs mb-2">{technologies}</p>
             </div>
           </div>
-          <div className="mt-4 lg:mt-0 flex space-x-4">
+          <div className="mt-4 lg:mt-0 flex space-x-4 sm:justify-start justify-center">
             <a
               href={repoLink}
               target="_blank"

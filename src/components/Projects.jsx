@@ -5,9 +5,9 @@ import project2Image from '../assets/2.webp';
 
 const Projects = () => {
   return (
-    <div name="projects" className="px-4 sm:px-8 md:px-16 lg:px-32 mt-2 max-w-screen-lg mx-auto mb-2">
-      <h2 className="text-lg font-montserrat font-bold text-[#f4f6ff]">Proyectos</h2>
-      <div className="flex-1">
+    <div name="projects" className="px-4 sm:px-8 md:px-16 lg:px-32 mt-2 max-w-screen-lg mx-auto mb-4">
+      <h2 className="text-lg font-montserrat font-bold mb-4 text-[#f4f6ff]">Proyectos</h2>
+      <div className="flex-1 sm:text-left text-center">
         <ProjectCard
           title="Proyecto 1"
           description="Descripción del Proyecto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
