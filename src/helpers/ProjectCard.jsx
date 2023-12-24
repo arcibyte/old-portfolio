@@ -22,12 +22,12 @@ const ProjectCard = ({
         <div className="sm:ml-4 flex-1">
           <div className="font-poppins">
             <h2 className="text-base">{title}</h2>
-            <p className="text-sm text-[#bdc8f1]">{description}</p>
+            <p className="text-sm dark:text-blue-200">{description}</p>
             <div className="mt-2">
               <p className="text-xs mb-2">{technologies}</p>
             </div>
           </div>
-          <div className="mt-4 lg:mt-0 flex space-x-4 sm:justify-start justify-center">
+          <div className="mt-2 lg:mt-0 flex space-x-4 sm:justify-start justify-center">
             <a
               href={repoLink}
               target="_blank"

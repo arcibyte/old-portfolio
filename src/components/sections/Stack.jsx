@@ -13,9 +13,9 @@ const technologies = [
 ];
 
 const Stack = () => (
-  <div className="px-4 sm:px-8 md:px-16 lg:px-32">
+  <div className="px-4 sm:px-8 md:px-16 lg:px-32 dark:text-cyan-50">
     <div className="mt-2 flex flex-col items-center sm:flex-row">
-      <h4 className="text-lg font-montserrat mb-2 sm:mb-0 sm:mr-4 font-bold text-[#f4f6ff]">Stack |</h4>
+      <h3 className="text-lg font-montserrat font-bold mb-2 sm:mb-0 sm:mr-4">Stack |</h3>
       <ul className="flex flex-wrap justify-center sm:justify-start space-x-2">
         {technologies.map(({ icon, name }, index) => (
           <React.Fragment key={index}>

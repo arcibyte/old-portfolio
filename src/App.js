@@ -1,22 +1,22 @@
 // App.js
-import React from "react";
-import "tailwindcss/tailwind.css";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Stack from "./components/Stack";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import React from 'react';
+import 'tailwindcss/tailwind.css';
+import Navbar from './components/layout/Navbar';
+import Home from './components/sections/Home';
+import Stack from './components/sections/Stack';
+import About from './components/sections/About';
+import Experience from './components/sections/Experience';
+import Projects from './components/sections/Projects';
+import Contact from './components/sections/Contact';
+import Footer from './components/layout/Footer';
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Home />
-      <Stack/>
-      <About/>
+      <Stack />
+      <About />
       <Experience />
       <Projects />
       <Contact />

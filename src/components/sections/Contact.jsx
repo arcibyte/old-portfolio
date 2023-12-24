@@ -3,15 +3,21 @@ import { FiExternalLink, FiMail } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <div name="contact" className="px-4 sm:px-8 md:px-16 lg:px-32 mt-2 max-w-screen-lg mx-auto mb-2 relative">
-      <h1 className="text-lg font-montserrat mb-6 font-bold">Contacto</h1>
+    <div
+      name="contact"
+      className="px-4 sm:px-8 md:px-16 lg:px-32 mt-2 max-w-screen-lg mx-auto mb-2 relative dark:text-white"
+    >
+      <h1 className="text-lg font-montserrat font-bold mb-6">Contacto</h1>
       <div className="relative flex items-center">
-        <FiMail className="text-white mr-2" size={28} />
+        <FiMail className="mr-1" size={28} />
+        <label htmlFor="emailInput" className="mr-2 font-poppins">Correo</label>
         <input
           type="text"
+          id="emailInput"
           readOnly
-          className="bg-white w-full py-1.5 px-3 rounded-lg grid place-items-center text-black"
+          className="border-2 border-black w-full py-1.5 px-3 rounded-lg grid place-items-center text-black"
           value="arcibyte@gmail.com"
+          aria-readonly="true"
         />
       </div>
       <div>

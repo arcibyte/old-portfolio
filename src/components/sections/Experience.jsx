@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceItem from "../components/helpers/ExperienceItem";
+import ExperienceItem from "../../helpers/ExperienceItem";
 
 const Experience = () => {
   const experiences = [
@@ -14,7 +14,7 @@ const Experience = () => {
   return (
     <>
       <div name='experience' className="px-4 sm:px-8 md:px-16 lg:px-32 py-2 mb-6 font-poppins text-sm">
-        <h2 className="text-lg font-montserrat font-bold text-[#f4f6ff]">Experiencia</h2>
+        <h2 className="text-lg font-montserrat font-bold dark:text-cyan-50">Experiencia</h2>
         {experiences.map((experience, index) => (
           <ExperienceItem key={index} experience={experience} />
         ))}
