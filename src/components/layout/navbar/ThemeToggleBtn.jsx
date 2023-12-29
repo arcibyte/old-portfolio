@@ -23,7 +23,7 @@ const ThemeToggleButton = () => {
     root.classList.toggle("dark", darkMode);
 
     const body = document.body;
-    body.style.backgroundColor = darkMode ? "#10131a" : "#FFFEF4";
+    body.style.backgroundColor = darkMode ? "#111010" : "#FFFEF4";
   };
 
   useEffect(() => {
@@ -46,7 +46,7 @@ const ThemeToggleButton = () => {
 
   return (
     <motion.button
-  className={`backdrop-blur-md bg-gradient-to-r from-iris/60 to-surface/60 dark:from-iris/80 dark:to-surface/80 px-2 py-1 rounded-md border border-blue-500 focus:outline-none text-xl`}
+  className={`backdrop-blur-md bg-gradient-to-r from-iris/60 to-surface/60 dark:from-iris/80 dark:to-surface/80 px-2 py-1 rounded-md border border-neutral-800 dark:border-neutral-300 focus:outline-none text-xl`}
   whileTap={{ scale: 0.95 }}
   initial={{ scale: 1 }}
   animate={{ scale: isAnimating ? 1.1 : 1 }}

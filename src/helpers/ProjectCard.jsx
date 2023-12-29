@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLink } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({
   title,
@@ -22,32 +23,26 @@ const ProjectCard = ({
         <div className="sm:ml-4 flex-1">
           <div className="font-poppins">
             <h2 className="text-base">{title}</h2>
-            <p className="text-sm dark:text-blue-200">{description}</p>
+            <p className="text-sm text-neutral-700 dark:text-neutral-300">{description}</p>
             <div className="mt-2">
               <p className="text-xs mb-2">{technologies}</p>
             </div>
           </div>
-          <div className="mt-2 lg:mt-0 flex space-x-4 sm:justify-start justify-center">
-            <a
-              href={repoLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center mb-2 hover:text-blue-500"
-              style={{ cursor: 'pointer' }}
+          <div className="mt-2 lg:mt-0 flex space-x-4 sm:justify-start justify-center ">
+            <Link
+              to={repoLink}
+              className="flex items-center mb-2 hover:bg-emerald-600 py-2 px-2 text-neutral-800 dark:text-neutral-200 bg-neutral-200 dark:bg-neutral-800 font-poppins rounded-full"
             >
               <FaGithub className="mr-1" />
-              <span className="text-sm">Repositorio</span>
-            </a>
-            <a
-              href={projectLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center mb-2 hover:text-blue-500"
-              style={{ cursor: 'pointer' }}
+              <span className="text-xs">Repositorio</span>
+            </Link>
+            <Link
+              to={projectLink}
+              className="flex items-center mb-2 hover:bg-emerald-600 py-2 px-3 text-neutral-800 dark:text-neutral-200 bg-neutral-200 dark:bg-neutral-800 rounded-full"
             >
               <FaLink className="mr-1" />
-              <span className="text-sm">Ver</span>
-            </a>
+              <span className="text-xs">Ver</span>
+            </Link>
           </div>
         </div>
       </div>

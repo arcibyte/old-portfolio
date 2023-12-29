@@ -1,25 +1,25 @@
 import React from 'react';
 
 const Footer = () => {
-  const spanClass = "hover:text-blue-500";
+  const spanClass = "hover:text-emerald-600";
 
   const generateLink = (url, text) => (
     <a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="hover:text-blue-500"
+      className="text-neutral-900 dark:text-neutral-100"
     >
       <span className={spanClass}>{text}</span>
     </a>
   );
 
   return (
-    <footer className="px-4 sm:px-8 md:px-16 lg:px-32 py-6 text-center font-poppins text-sm dark:text-blue-200">
+    <footer className="px-4 sm:px-8 md:px-16 lg:px-28 py-6 text-center font-poppins text-sm text-neutral-700 dark:text-neutral-300">
       <p>
         Desarrollado en {generateLink("https://code.visualstudio.com/", "Visual Studio Code")} con {generateLink("https://reactjs.org/", "React")} y {generateLink("https://tailwindcss.com/", "Tailwind CSS")}. Fuentes: <span className={`${spanClass} font-montserrat`}>Montserrat</span> y <span className={`${spanClass} font-poppins`}>Poppins</span>. Desplegado en {generateLink("https://vercel.com/", "Vercel")}.
       </p>
-      <p className="text-sm mt-4 dark:text-white">&copy; 2023 Jhon Arciniegas</p>
+      <p className="text-sm mt-4 dark:text-neutral-200">Jhon Arciniegas &copy; 2023</p>
     </footer>
   );
 };
