@@ -1,27 +1,21 @@
-// App.js
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'tailwindcss/tailwind.css';
-import Navbar from './components/layout/Navbar';
-import Home from './components/sections/Home';
-import Stack from './components/sections/Stack';
-import About from './components/sections/About';
-import Experience from './components/sections/Experience';
-import Projects from './components/sections/Projects';
-import Contact from './components/sections/Contact';
+import Navbar from './components/layout/navbar/Navbar';
+import Wrapper from './pages/Wrapper'; 
 import Footer from './components/layout/Footer';
+import Projects from './pages/Projects';
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Home />
-      <Stack />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Wrapper />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 };
 

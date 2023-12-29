@@ -1,11 +1,18 @@
-import React from 'react';
-import ProjectCard from '../../helpers/ProjectCard'; 
-import project1Image from '../../assets/1.webp';
-import project2Image from '../../assets/2.webp';
+import React from "react";
+import { Helmet } from "react-helmet";
+import ProjectCard from "../helpers/ProjectCard";
+import project1Image from "../assets/1.webp";
+import project2Image from "../assets/2.webp";
 
 const Projects = () => {
   return (
-    <div name="projects" className="px-4 sm:px-8 md:px-16 lg:px-32 mt-2 max-w-screen-lg mx-auto mb-4 dark:text-white">
+    <div
+      name="projects"
+      className="px-4 sm:px-8 md:px-16 lg:px-32 mt-20 max-w-screen-lg mx-auto mb-4 dark:text-white"
+    >
+      <Helmet>
+        <title>Jhon Arciniegas - Projects</title>
+      </Helmet>
       <h2 className="text-lg font-montserrat font-bold mb-4">Proyectos</h2>
       <div className="flex-1 sm:text-left text-center">
         <ProjectCard
@@ -24,7 +31,6 @@ const Projects = () => {
           technologies="React, Tailwind, Vercel"
           imageUrl={project2Image}
         />
-        
       </div>
     </div>
   );
