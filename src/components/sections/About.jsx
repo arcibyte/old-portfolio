@@ -15,8 +15,8 @@ const About = () => {
           web.
         </p>
         <p>
-          Me apasiona la creación integral de productos, desde su concepción
-          hasta su implementación. Mi enfoque se centra en el desarrollo de
+          Me apasiona crear productos integrales, desde su concepción hasta su
+          implementación. Mi enfoque está puesto en el desarrollo de
           experiencias intuitivas que se ajustan a las necesidades de cada
           usuario.
         </p>

@@ -15,7 +15,7 @@ const Footer = () => {
   );
 
   return (
-    <footer className="px-4 sm:px-8 md:px-16 lg:px-28 py-6 text-center font-poppins text-sm text-neutral-700 dark:text-neutral-300">
+    <footer className="px-4 sm:px-8 md:px-16 lg:px-32 py-6 text-center font-poppins text-sm text-neutral-700 dark:text-neutral-300">
       <p>
         Desarrollado en {generateLink("https://code.visualstudio.com/", "Visual Studio Code")} con {generateLink("https://reactjs.org/", "React")} y {generateLink("https://tailwindcss.com/", "Tailwind CSS")}. Fuentes: <span className={`${spanClass} font-montserrat`}>Montserrat</span> y <span className={`${spanClass} font-poppins`}>Poppins</span>. Desplegado en {generateLink("https://vercel.com/", "Vercel")}.
       </p>
