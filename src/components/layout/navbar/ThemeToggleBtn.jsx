@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 import useLocalStorage from "../../../hooks/useLocalStorage";
 
@@ -46,14 +47,14 @@ const ThemeToggleButton = () => {
 
   return (
     <motion.button
-  className={`backdrop-blur-md bg-gradient-to-r from-iris/60 to-surface/60 dark:from-iris/80 dark:to-surface/80 px-2 py-1 rounded-md border border-neutral-800 dark:border-neutral-300 focus:outline-none text-xl`}
+  className={`backdrop-blur-md bg-gradient-to-r from-iris/60 to-surface/60 dark:from-iris/80 dark:to-surface/80 px-2 py-1 rounded-md border border-neutral-700 dark:border-neutral-200 focus:outline-none text-xl`}
   whileTap={{ scale: 0.95 }}
   initial={{ scale: 1 }}
   animate={{ scale: isAnimating ? 1.1 : 1 }}
   onClick={toggleDarkMode}
   aria-label={isDarkMode ? "Desactivar modo oscuro" : "Activar modo oscuro"}
 >
-  {isDarkMode ? <>🌝</> : <>🌞</>}
+  {isDarkMode ? <><IoSunnyOutline className="text-xl dark:text-neutral-200" /></> : <><IoMoonOutline className="text-neutral-800" /></>}
 </motion.button>
   );
 };
