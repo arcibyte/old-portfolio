@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-center w-full fixed left-0 top-6 z-20">
       <ul className="flex justify-center items-center bg-surface/70 rounded-full backdrop-blur-md  border dark:border-neutral-200 border-neutral-700 ring-iris/10 px-1.5 py-1 gap-x-2.5 shadow-iris/10 shadow-xl dark:text-white">
-        <NavItem to="/">Perfil</NavItem>
-        <NavRouterItem to="/projects">Proyectos</NavRouterItem>
+        <NavItem to="/">inicio</NavItem>
+        <NavRouterItem to="/blog">blog</NavRouterItem>
       </ul>
       <div className="ml-2 sm:ml-4" role="button">
         <ThemeToggleButton />

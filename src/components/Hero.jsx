@@ -1,12 +1,10 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import Profile from "../../assets/profile.webp";
+import Profile from "../assets/profile.webp";
 
 const Hero = () => {
   return (
-    <div
-      className="px-4 sm:px-8 md:px-16 lg:px-32 mb-8 mt-28"
-    >
+    <div className="md:px-16 lg:px-32 mb-8 mt-28 mx-auto">
       <div className="flex flex-col sm:flex-row items-center">
         <div className="flex-shrink-0">
           <img
@@ -22,7 +20,7 @@ const Hero = () => {
           <h2 className="text-xl font-bold font-montserrat bg-gradient-to-r from-emerald-500 to-emerald-200 text-transparent bg-clip-text">
             Desarrollador FullStack
           </h2>
-          <p className="mb-2 text-sm font-poppins dark:text-neutral-300">
+          <p className="mb-2 text-sm font-poppins dark:text-neutral-400">
             Codifico experiencias únicas que impulsan negocios.{" "}
             <span style={{ fontSize: "1.2em" }}>🚀</span>
           </p>

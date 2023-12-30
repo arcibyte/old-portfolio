@@ -1,26 +1,26 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Hero from "../components/sections/Hero";
-import Stack from "../components/sections/Stack";
-import About from "../components/sections/About";
-import Experience from "../components/sections/Experience";
-import Tools from "../components/sections/Tools";
-import Contact from "../components/sections/Contact";
+import Hero from "../components/Hero";
+import Stack from "../components/Stack";
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
-const SectionsContainer = () => {
+const Wrapper = () => {
   return (
     <div>
       <Helmet>
-        <title>Jhon | Software developer</title>
+        <title>Jhon - developer</title>
       </Helmet>
       <Hero />
       <Stack />
       <About />
       <Experience />
-      <Tools />
+      <Projects/>
       <Contact />
     </div>
   );
 };
 
-export default SectionsContainer;
+export default Wrapper;

@@ -25,7 +25,7 @@ const Contact = () => {
     >
       <h1 className="text-lg font-montserrat font-bold mb-6 dark:text-neutral-300 text-neutral-800">Contacto</h1>
 
-      <div className="flex flex-col sm:flex-row sm:space-x-2 text-sm font-poppins">
+      <div className="flex flex-col sm:flex-row sm:space-x-4 text-sm font-poppins">
         <ContactLink
           href="https://www.linkedin.com/in/jhon-arciniegas"
           label="LinkedIn"

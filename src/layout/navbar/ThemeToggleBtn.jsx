@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
-import useLocalStorage from "../../../hooks/useLocalStorage";
+import useLocalStorage from "../../hooks/useLocalStorage";
 
 const ThemeToggleButton = () => {
   const [isDarkMode, setIsDarkMode] = useLocalStorage("darkMode", false);

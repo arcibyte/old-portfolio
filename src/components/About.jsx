@@ -6,7 +6,7 @@ const About = () => {
       <h2 className="text-lg font-montserrat font-bold o mb-2 text-neutral-800 dark:text-neutral-200">
         Sobre mí
       </h2>
-      <div className="font-poppins text-sm text-neutral-700 dark:text-neutral-300">
+      <div className="font-poppins text-sm text-neutral-700 dark:text-neutral-400">
         <p className="mb-3">
           Escribí mis primeras líneas de código en 2019 con Java mientras
           cursaba mis últimos años de colegio. Disfrutaba aprendiendo y
