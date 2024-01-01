@@ -7,13 +7,12 @@ const Blog = () => {
     {
       title: "Cómo instalar y configurar Arch Linux desde cero",
       date: "Dic 24",
-      duration: "11 min lectura",
       link: "",
     },
   ];
 
   return (
-    <div className="px-4 sm:px-8 md:px-16 lg:px-32 mt-28 w-full mb-4 text-neutral-700 dark:text-neutral-300">
+    <div className="mx-auto max-w-xl mt-28 text-neutral-700 dark:text-neutral-300">
       <Helmet>
         <title>Jhon - blog</title>
       </Helmet>
@@ -25,19 +24,17 @@ const Blog = () => {
               <Link
                 key={index}
                 to={post.link}
-                className="block border-b border-gray-500 hover:bg-emerald-600 hover:border-neutral-600 py-2"
+                className="block border-t border-gray-500 hover:bg-neutral-300 dark:hover:bg-neutral-700 hover:border-neutral-600 py-2"
               >
                 <div data-testid="article-link" className="flex items-center">
-                  <p className="text-sm dark:text-neutral-400 mr-4 font-poppins">
+                  <p className="text-xs dark:text-neutral-400 mr-4 font-poppins">
                     {post.date}
                   </p>
                   <div className="flex flex-col">
-                    <span className="text-base font-poppins">
+                    <span className="text-sm font-poppins">
                       {post.title}
                     </span>
                     <div>
-                      <div className="text-xs text-neutral-400 font-poppins mt-2"
-                      > {post.duration}</div>
                     </div>
                   </div>
                 </div>

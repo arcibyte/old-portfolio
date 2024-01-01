@@ -16,7 +16,7 @@ const Experience = () => {
     <>
       <div
         name="experience"
-        className="px-4 sm:px-8 md:px-16 lg:px-32 py-2 mt-4 mb-4 font-poppins text-sm"
+        className="mx-auto max-w-xl px-4 mt-6 mb-6 font-poppins text-sm"
       >
         <h2 className="text-lg font-montserrat font-bold text-neutral-800 dark:text-neutral-200">
           Experiencia

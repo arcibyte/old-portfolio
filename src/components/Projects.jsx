@@ -6,7 +6,7 @@ import project2Image from '../assets/2.webp';
 const Projects = () => {
   return (
     <div
-      className="px-4 sm:px-8 md:px-16 lg:px-32 max-w-screen-lg mx-auto mb-6 text-neutral-700 dark:text-neutral-300"
+      className="mx-auto max-w-xl px-4 mb-6 text-neutral-700 dark:text-neutral-300"
     >
       <h2 className="text-xl font-montserrat font-bold mb-4">Proyectos</h2>
       <div className="flex-1 sm:text-left text-center">

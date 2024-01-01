@@ -13,7 +13,7 @@ const technologies = [
 ];
 
 const Stack = () => (
-  <div className="px-4 sm:px-8 md:px-16 lg:px-32">
+  <div className="mx-auto max-w-xl mt-6 px-4 mb-6">
     <div className="mt-2 flex flex-col items-center sm:flex-row">
       <h3 className="text-lg font-montserrat font-bold mb-2 sm:mb-0 sm:mr-4 text-neutral-800 dark:text-neutral-200">Stack |</h3>
       <ul className="flex flex-wrap justify-center sm:justify-start space-x-2">

@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="px-4 sm:px-8 md:px-16 lg:px-32 max-w-screen-lg mx-auto mb-2 relative dark:text-white  rounded-full"
+      className="mx-auto max-w-xl px-4 dark:text-white  rounded-full"
     >
       <h1 className="text-lg font-montserrat font-bold mb-6 dark:text-neutral-300 text-neutral-800">Contacto</h1>
 

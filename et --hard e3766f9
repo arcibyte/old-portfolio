@@ -1,0 +1,26 @@
+[33m45458d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: reset: moving to 45458d9
+[33m45458d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: reset: moving to 45458d9
+[33me3766f9[m HEAD@{2}: reset: moving to HEAD^
+[33m3dd44e4[m HEAD@{3}: reset: moving to HEAD^
+[33mb16a0ec[m HEAD@{4}: commit: SECC updated projects & blog (in progress)
+[33m3dd44e4[m HEAD@{5}: commit: add tools section
+[33me3766f9[m HEAD@{6}: commit: btn icon theme changed
+[33m4e9d6f6[m HEAD@{7}: commit: update about & contact section
+[33me9e3f1a[m HEAD@{8}: reset: moving to HEAD~1
+[33m3387bc9[m HEAD@{9}: commit: update about & contact section
+[33me9e3f1a[m HEAD@{10}: reset: moving to HEAD~1
+[33m45458d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{11}: commit: update about section
+[33me9e3f1a[m HEAD@{12}: reset: moving to HEAD~1
+[33mfbf8ef2[m HEAD@{13}: commit (amend): btns & updated colors profile & projects page
+[33m2d61c4e[m HEAD@{14}: commit: btns & updated colors profile & projects page
+[33me9e3f1a[m HEAD@{15}: commit: btns & updated colors profile & projects page
+[33m24cc5b4[m HEAD@{16}: commit: app router migration
+[33m1ad946b[m HEAD@{17}: reset: moving to HEAD~1
+[33m159a121[m HEAD@{18}: commit: app Router Migration
+[33m1ad946b[m HEAD@{19}: reset: moving to HEAD~1
+[33m36ff988[m HEAD@{20}: reset: moving to HEAD~2
+[33m6a46d34[m HEAD@{21}: pull origin main: Merge made by the 'ort' strategy.
+[33m50c8c04[m HEAD@{22}: commit: Navbar refactored (added blog from previous commit, colors, updated btns & tools added)
+[33m36ff988[m HEAD@{23}: commit: app router migration
+[33m1ad946b[m HEAD@{24}: commit: dark & light theme added 🌝🌞
+[33m31b158c[m HEAD@{25}: clone: from https://github.com/arcibyte/my-portfolio
